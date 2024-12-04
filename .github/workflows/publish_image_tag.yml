@@ -18,4 +18,4 @@ jobs:
           password: ${{ secrets.FERLAB_DOCKER_HUB_TOKEN }}
           image: ferlabcrsj/sentry-prometheus-exporter
           tag_format: "{semver}"
-          
+
